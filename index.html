@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Accommodation Services</title>
+</head>
+
+<body>
+    <header>
+        <section class="wrapper">
+            <div class="company-info">
+                <h1>Welcome to Starr Power Tech Accommodation Services
+                </h1>
+                <p>
+                    Plan Your Perfect Getaway with Starr Power Tech Accommodation Services
+                </p>
+            </div>
+
+            <form action="#" class="form">
+                <div class="top">
+                    <p><span style="font-weight: 700;">Book Your Stay Today</p>
+                </div>
+                <div class="bottom">
+                    <div class="progressbar">
+                        <div class="progress" id="progress"></div>
+
+                        <div class="progress-step progress-step-active" data-title="Intro"></div>
+                        <div class="progress-step" data-title="Contact"></div>
+                        <div class="progress-step" data-title="Room"></div>
+                        <div class="progress-step" data-title="Checkout"></div>
+                    </div>
+
+                    <!-- Steps -->
+                    <div class="form-step form-step-active">
+                        <div class="input-group">
+                            <label for="username">First Name</label>
+                            <input type="text" name="firstname" id="username" />
+                        </div>
+                        <div class="input-group">
+                            <label for="position">Last Name</label>
+                            <input type="text" name="lastname" id="position" />
+                        </div>
+                        <div 
+                        class="next-container">
+                            <a href="#" class="btn btn-next width-50 ml-auto first-next-btn">Next</a>
+                        </div>
+                    </div>
+                    <div class="form-step">
+                        <div class="input-group">
+                            <label for="phone">Phone Number</label>
+                            <input type="text" name="phone" id="phone" />
+                        </div>
+                        <div class="input-group">
+                            <label for="email">Email</label>
+                            <input type="text" name="email" id="email" />
+                        </div>
+                        <div class="btns-group prev-next">
+                            <a href="#" class="btn btn-prev">Previous</a>
+                            <a href="#" class="btn btn-next">Next</a>
+                        </div>
+                    </div>
+                    <div class="form-step">
+                        <div class="input-group">
+                            <label for="dob">Date</label>
+                            <input type="date" name="dob" id="dob" />
+                        </div>
+                        <div class="input-group">
+                            <select name="room">
+                                <option value="standard">Standard Room</option>
+                                <option value="suite">Suite</option>
+                                <option value="family">Family Room</option>
+                            </select>
+                        </div>
+                        <div class="btns-group prev-next">
+                            <a href="#" class="btn btn-prev">Previous</a>
+                            <a href="#" class="btn btn-next">Next</a>
+                        </div>
+                    </div>
+                    <div class="form-step">
+                        <section id="cart">
+                            <h2>Cart</h2>
+                            <table>
+                                <tr>
+                                    <th>Room Type</th>
+                                    <th>Date</th>
+                                    <th>Price</th>
+                                    <th>VAT</th>
+                                    <th>Total</th>
+                                </tr>
+                                <tr>
+                                    <td>Standard Room</td>
+                                    <td>2023-06-05</td>
+                                    <td>$100</td>
+                                    <td>$12</td>
+                                    <td>$112</td>
+                                </tr>
+                            </table>
+                            <input type="submit" value="Checkout">
+                        </section>
+                    </div>
+                </div>
+            </form>
+            </div>
+            </form>
+        </section>
+    </header>
+
+
+
+    <footer>
+        <img class="logo-footer" src="images/logo-footer.svg" alt="" />
+        <div class="container-footer">
+            <div class="footer-contact">
+                <div>
+                    <img src="./images/icon-location.svg" alt="" />
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua
+                    </p>
+                </div>
+
+                <div>
+                    <img src="./images/icon-phone.svg" alt="" />
+                    <p>+234-543-123-4567</p>
+                </div>
+
+                <div>
+                    <img src="./images/icon-email.svg" alt="" />
+                    <p>example@starrpowertech.com</p>
+                </div>
+            </div>
+
+            <div class="footer-links-left-col">
+                <ul>
+                    <li>
+                        <a href="#">About Us</a>
+                    </li>
+                    <li>
+                        <a href="#">What We Do</a>
+                    </li>
+                    <li>
+                        <a href="#">FAQ</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer-links-right-col">
+                <ul>
+                    <li>
+                        <a href="#">Contact Us</a>
+                    </li>
+                    <li>
+                        <a href="#">Amenities</a>
+                    </li>
+                    <li>
+                        <a href="#">Policies</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="social-icons">
+                <ul>
+                    <li class="facebook">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    </li>
+                    <li class="twitter">
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </li>
+                    <li class="instagram">
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <p class="copyright">
+            &copy; 2023 Starr Power Tech. All rights reserved
+        </p>
+        </div>
+    </footer>
+</body>
+
+</html>
